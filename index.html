@@ -18,6 +18,10 @@
                 <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
                 <li><a href="#contacto" class="nav-link">Contacto</a></li>
             </ul>
+            <div class="language-switcher" aria-label="Selector de idioma">
+                <button id="langEs" class="lang-btn active" type="button">ES</button>
+                <button id="langEn" class="lang-btn" type="button">EN</button>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -28,10 +32,36 @@
 
     <!-- Sección Hero -->
     <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Hola, soy Sergio Rivera Urrea</h1>
-            <p>Desarrollador Web | Game Developer | Analista de datos</p>
-            <button class="cta-button">Conoce mi trabajo</button>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Desarrollador <span class="highlight">Full Stack</span></h1>
+                <p class="hero-subtitle">Desarrollador Web | Game Developer | Analista de datos</p>
+                <p class="hero-description">Desarrollador de software enfocado en la arquitectura y construcción de aplicaciones multiplataforma. Me apasiona traducir retos de negocio en código eficiente.</p>
+                
+                <div class="hero-buttons">
+                    <button class="cta-button">VER PROYECTOS</button>
+                    <button class="cta-button secondary">DESCARGAR CV</button>
+                </div>
+
+                <div class="hero-contact">
+                    <div class="contact-item">
+                        <span class="contact-label">CORREO</span>
+                        <span class="contact-value">matambita08@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">TELÉFONO</span>
+                        <span class="contact-value">+57 301 731 9664</span>
+                    </div>
+                    <div class="social-icons">
+                        <img class="social-icon" src="assets/images/icon-linkedin.png" alt="LinkedIn">
+                        <img class="social-icon github-icon" src="assets/images/github.png" alt="GitHub">
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="assets/images/perfil profesional.png" alt="Foto de perfil">
+            </div>
         </div>
     </section>
 
@@ -143,6 +173,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- Botón Scroll to Top -->
+    <button class="scroll-to-top" id="scrollToTop">↑</button>
 
     <script src="js/script.js"></script>
 </body>
