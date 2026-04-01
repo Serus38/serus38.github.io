@@ -82,7 +82,6 @@ body {
 
 .nav-link:hover {
     color: var(--accent-blue);
-    text-decoration: underline;
 }
 
 .language-switcher {
@@ -280,8 +279,9 @@ body {
 .hero-image img {
     max-width: 50%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 30%;
     box-shadow: var(--shadow);
+    background: rgb(8, 10, 21) ;
     
 }
 
