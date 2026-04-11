@@ -46,8 +46,9 @@ const translations = {
             'Ecosistema Microsoft (trabajo colaborativo y remoto)'
         ],
         projectsTitle: 'Mis Proyectos',
-        projectNames: ['Proyecto 1', 'Proyecto 2', 'Proyecto 3'],
-        projectDescription: 'Descripción breve del proyecto.',
+        projectNames: ['Aplicación para el seguimiento de envíos', 'Proyecto 2', 'Proyecto 3'],
+        projectDescription: 'Seguimiento de envios maritimos y terrestres asi como su gestion y monitoreo a traves de un dashboard',
+        projectDescription2: 'Breve descripción del proyecto.',
         projectLink: 'Ver más →',
         contactTitle: 'Ponte en Contacto',
         placeholders: ['Tu nombre', 'Tu email', 'Tu mensaje'],
@@ -186,6 +187,10 @@ function applyLanguage(lang) {
     document.querySelectorAll('.project-card p').forEach((desc) => {
         desc.textContent = t.projectDescription;
     });
+
+    document.querySelectorAll('.project-card p')[1].textContent = t.projectDescription2;
+
+    
 
     document.querySelectorAll('.project-link').forEach((link) => {
         link.textContent = t.projectLink;
